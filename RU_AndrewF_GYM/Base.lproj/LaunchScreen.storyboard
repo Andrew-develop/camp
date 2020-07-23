@@ -16,24 +16,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Display Shape" translatesAutoresizingMaskIntoConstraints="NO" id="yPV-3K-vS2">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" red="0.38767582178115845" green="0.56205403804779053" blue="0.76472866535186768" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ellipse 16" translatesAutoresizingMaskIntoConstraints="NO" id="2mt-PO-erY">
-                                <rect key="frame" x="137" y="156" width="141" height="141"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fitness-logo-png-1" translatesAutoresizingMaskIntoConstraints="NO" id="CsT-yl-XC6">
+                                <rect key="frame" x="137" y="100" width="140" height="140"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fitness-logo-png-1" translatesAutoresizingMaskIntoConstraints="NO" id="CsT-yl-XC6">
-                                <rect key="frame" x="138" y="157" width="140" height="140"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ellipse 16" translatesAutoresizingMaskIntoConstraints="NO" id="2mt-PO-erY">
+                                <rect key="frame" x="136" y="100" width="141" height="141"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="yPV-3K-vS2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Knl-CW-P0A"/>
-                            <constraint firstItem="yPV-3K-vS2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Ldf-9j-kz5"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yPV-3K-vS2" secondAttribute="bottom" id="PRU-Nx-lpa"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yPV-3K-vS2" secondAttribute="trailing" id="UVs-HZ-Se6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yPV-3K-vS2" secondAttribute="trailing" id="64n-JE-HRf"/>
+                            <constraint firstItem="CsT-yl-XC6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="GdD-pb-Z1p"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="yPV-3K-vS2" secondAttribute="top" constant="44" id="MbF-E0-D3p"/>
+                            <constraint firstItem="CsT-yl-XC6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="137" id="P0x-cp-crP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CsT-yl-XC6" secondAttribute="bottom" constant="622" id="PJ7-at-oqV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CsT-yl-XC6" secondAttribute="trailing" constant="137" id="dXK-KH-hUf"/>
+                            <constraint firstItem="yPV-3K-vS2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="h7p-Uh-Ijh"/>
+                            <constraint firstItem="yPV-3K-vS2" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="34" id="jXh-7f-SLF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

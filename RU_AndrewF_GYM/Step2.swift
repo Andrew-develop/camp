@@ -21,14 +21,11 @@ class Step2: UIViewController {
     }
     
     @IBAction func gender(_ sender: UIButton) {
-        if genderF.backgroundColor == UIColor.white && genderM.backgroundColor == UIColor.white {
-            sender.backgroundColor = UIColor.green
-        }
-        else if genderF.backgroundColor == UIColor.green && sender.restorationIdentifier == "Male" {
-            genderF.backgroundColor = UIColor.white
+        if sender.restorationIdentifier == "Male"{
             genderM.backgroundColor = UIColor.green
+            genderF.backgroundColor = UIColor.white
         }
-        else if genderM.backgroundColor == UIColor.green && sender.restorationIdentifier == "Female" {
+        else {
             genderM.backgroundColor = UIColor.white
             genderF.backgroundColor = UIColor.green
         }

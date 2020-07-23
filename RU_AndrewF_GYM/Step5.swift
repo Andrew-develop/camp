@@ -10,12 +10,16 @@ import UIKit
 
 class Step5: UIViewController {
     
+    @IBOutlet weak var height: UITextField!
+    @IBOutlet weak var weight: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
 
-
+    @IBAction func nextButton(_ sender: UIButton) {
+    }
+    
 }
 

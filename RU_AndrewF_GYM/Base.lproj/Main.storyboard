@@ -6,11 +6,16 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Font.ttf">
+            <string>NDAstroneer</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Step1-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="Step1" id="BYZ-38-t0r" customClass="Step1" customModule="RU_AndrewF_GYM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Step1" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="Step1" customModule="RU_AndrewF_GYM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -18,7 +23,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 1/5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TEi-QH-42B">
                                 <rect key="frame" x="20" y="243" width="374" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="34"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -26,7 +31,8 @@
                                 <rect key="frame" x="65" y="443" width="284" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Keeping fit" image="urn-aaid-sc-US-472b45c9-d231-4170-9923-b82ba668e02b;version=0">
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="17"/>
+                                <state key="normal" title="   Keeping fit" image="urn-aaid-sc-US-472b45c9-d231-4170-9923-b82ba668e02b;version=0">
                                     <color key="titleColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -42,7 +48,8 @@
                                 <rect key="frame" x="65" y="528" width="284" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Build muscle" image="urn-aaid-sc-US-472b45c9-d231-4170-9923-b82ba668e02b;version=0-3">
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="17"/>
+                                <state key="normal" title="    Build muscle" image="urn-aaid-sc-US-472b45c9-d231-4170-9923-b82ba668e02b;version=0-3">
                                     <color key="titleColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -57,7 +64,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is your purpose?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3H-W7-Eso">
                                 <rect key="frame" x="20" y="315" width="374" height="20.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -65,7 +72,8 @@
                                 <rect key="frame" x="65" y="358" width="284" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Weight loss" image="urn-aaid-sc-US-472b45c9-d231-4170-9923-b82ba668e02b;version=0-2">
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="17"/>
+                                <state key="normal" title="    Weight loss" image="urn-aaid-sc-US-472b45c9-d231-4170-9923-b82ba668e02b;version=0-2">
                                     <color key="titleColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -97,14 +105,14 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 2/5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hza-lF-G3L">
                                 <rect key="frame" x="20" y="226" width="374" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="34"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is your gender?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ap-jy-WBV">
                                 <rect key="frame" x="20" y="315" width="374" height="20.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -113,35 +121,21 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Male" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGk-ik-Ldy">
-                                        <rect key="frame" x="234" y="58" width="50" height="27"/>
+                                        <rect key="frame" x="224" y="66" width="75" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="22"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Male" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEy-ZY-hOH">
-                                        <rect key="frame" x="234" y="-1" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="male" image="icons8-male-64"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="25"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <action selector="gender:" destination="knK-ki-WKC" eventType="touchUpInside" id="byM-7p-gmE"/>
-                                        </connections>
-                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Female" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rjy-6w-cw0">
-                                        <rect key="frame" x="-9" y="58" width="69" height="27"/>
+                                        <rect key="frame" x="0.0" y="66" width="100" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="22"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Female" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7RR-NN-3vw">
-                                        <rect key="frame" x="0.0" y="-2" width="50" height="50"/>
+                                        <rect key="frame" x="8" y="8" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="female" image="icons8-female-64"/>
@@ -154,6 +148,20 @@
                                             <action selector="gender:" destination="knK-ki-WKC" eventType="touchUpInside" id="eZv-tn-KPv"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Male" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEy-ZY-hOH">
+                                        <rect key="frame" x="224" y="8" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="male" image="icons8-male-64"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="gender:" destination="knK-ki-WKC" eventType="touchUpInside" id="byM-7p-gmE"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
@@ -161,7 +169,7 @@
                                 <rect key="frame" x="65" y="444" width="284" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="22"/>
                                 <state key="normal" title="Next"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -189,7 +197,7 @@
         <!--Step3 Female-->
         <scene sceneID="SYa-cU-zte">
             <objects>
-                <viewController storyboardIdentifier="Step3Female" id="y31-mX-Ytg" customClass="Step3Female" customModule="RU_AndrewF_GYM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Step3Female" modalPresentationStyle="fullScreen" id="y31-mX-Ytg" customClass="Step3Female" customModule="RU_AndrewF_GYM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5pI-O2-B1U">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -197,7 +205,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 3/5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQq-60-xw8">
                                 <rect key="frame" x="20" y="243" width="374" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="34"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -205,6 +213,7 @@
                                 <rect key="frame" x="20" y="358" width="219" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="17"/>
                                 <state key="normal" title="Hands">
                                     <color key="titleColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -221,6 +230,7 @@
                                 <rect key="frame" x="20" y="443" width="219" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="17"/>
                                 <state key="normal" title="Spine">
                                     <color key="titleColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -237,6 +247,7 @@
                                 <rect key="frame" x="20" y="528" width="219" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="17"/>
                                 <state key="normal" title="Torso">
                                     <color key="titleColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -252,7 +263,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What do you wont to work on?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4mb-Yv-e0c">
                                 <rect key="frame" x="20" y="315" width="374" height="20.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -260,6 +271,7 @@
                                 <rect key="frame" x="20" y="613" width="219" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="17"/>
                                 <state key="normal" title="Legs">
                                     <color key="titleColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -289,7 +301,7 @@
         <!--Step3 Male-->
         <scene sceneID="7wq-ym-5RY">
             <objects>
-                <viewController storyboardIdentifier="Step3Male" id="MZM-HQ-yD5" customClass="Step3Male" customModule="RU_AndrewF_GYM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Step3Male" modalPresentationStyle="fullScreen" id="MZM-HQ-yD5" customClass="Step3Male" customModule="RU_AndrewF_GYM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m19-fv-Gbw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -297,7 +309,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 3/5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eX0-QQ-3u0">
                                 <rect key="frame" x="20" y="243" width="374" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="34"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -305,6 +317,7 @@
                                 <rect key="frame" x="20" y="358" width="219" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="17"/>
                                 <state key="normal" title="Hands">
                                     <color key="titleColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -321,6 +334,7 @@
                                 <rect key="frame" x="20" y="443" width="219" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="17"/>
                                 <state key="normal" title="Spine">
                                     <color key="titleColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -337,6 +351,7 @@
                                 <rect key="frame" x="20" y="528" width="219" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="17"/>
                                 <state key="normal" title="Torso">
                                     <color key="titleColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -352,7 +367,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What do you wont to work on?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYY-Ml-abK">
                                 <rect key="frame" x="20" y="315" width="374" height="20.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -360,6 +375,7 @@
                                 <rect key="frame" x="20" y="613" width="219" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="17"/>
                                 <state key="normal" title="Legs">
                                     <color key="titleColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -389,7 +405,7 @@
         <!--Step4-->
         <scene sceneID="oWU-mo-fzx">
             <objects>
-                <viewController storyboardIdentifier="Step4" id="2tH-eO-leo" customClass="Step4" customModule="RU_AndrewF_GYM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Step4" modalPresentationStyle="fullScreen" id="2tH-eO-leo" customClass="Step4" customModule="RU_AndrewF_GYM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lvy-B2-7kb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -397,60 +413,98 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 4/5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5jG-Jr-kpn">
                                 <rect key="frame" x="20" y="243" width="374" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="34"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Yp-n3-BHl">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="jun" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Yp-n3-BHl">
                                 <rect key="frame" x="65" y="358" width="284" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Newbie Just getting started">
-                                    <color key="titleColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment>
+                                            <string key="content">Newbie 
+Just getting started</string>
+                                            <attributes>
+                                                <color key="NSColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="17" name="NDAstroneer"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="40"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="howMuch:" destination="2tH-eO-leo" eventType="touchUpInside" id="2p1-0y-cVg"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qN4-Nj-jg7">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="mid" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qN4-Nj-jg7">
                                 <rect key="frame" x="65" y="443" width="284" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Keep on 1-2 times a week">
-                                    <color key="titleColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment>
+                                            <string key="content">Keep on
+1-2 times a week</string>
+                                            <attributes>
+                                                <color key="NSColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="17" name="NDAstroneer"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="40"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="howMuch:" destination="2tH-eO-leo" eventType="touchUpInside" id="HKV-Ev-aar"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIi-gR-2Vf">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="sen" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FIi-gR-2Vf">
                                 <rect key="frame" x="65" y="528" width="284" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Advanced More than 3 times a week">
-                                    <color key="titleColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Advanced More than 3 times a week">
+                                            <attributes>
+                                                <color key="NSColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="17" name="NDAstroneer"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="40"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="howMuch:" destination="2tH-eO-leo" eventType="touchUpInside" id="WRh-5R-JnB"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How often do you exercise?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G5Q-Pk-JLe">
                                 <rect key="frame" x="20" y="315" width="374" height="20.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCx-98-UoX">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="kCx-98-UoX">
                                 <rect key="frame" x="65" y="613" width="284" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="17"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -459,21 +513,29 @@
                                         <integer key="value" value="40"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="nextButton:" destination="2tH-eO-leo" eventType="touchUpInside" id="vJv-zc-ZcM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="H6M-JU-Wll"/>
                     </view>
                     <navigationItem key="navigationItem" id="Q4N-Gn-AB3"/>
+                    <connections>
+                        <outlet property="jun" destination="9Yp-n3-BHl" id="KgF-Of-UUj"/>
+                        <outlet property="mid" destination="qN4-Nj-jg7" id="6jy-ME-tXe"/>
+                        <outlet property="sen" destination="FIi-gR-2Vf" id="LWU-2P-XZM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yqC-CG-YDN" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2838" y="118"/>
+            <point key="canvasLocation" x="2837.68115942029" y="117.85714285714285"/>
         </scene>
         <!--Step5-->
         <scene sceneID="pa3-HQ-1Zm">
             <objects>
-                <viewController storyboardIdentifier="Step5" id="Yob-vT-MU2" customClass="Step5" customModule="RU_AndrewF_GYM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Step5" modalPresentationStyle="fullScreen" id="Yob-vT-MU2" customClass="Step5" customModule="RU_AndrewF_GYM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YyD-Q7-otx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -481,7 +543,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 5/5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7x-Or-Pqw">
                                 <rect key="frame" x="20" y="243" width="374" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="34"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -489,6 +551,7 @@
                                 <rect key="frame" x="65" y="443" width="284" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="17"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -497,31 +560,50 @@
                                         <integer key="value" value="40"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="nextButton:" destination="Yob-vT-MU2" eventType="touchUpInside" id="7tr-v1-AsL"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is your purpose?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQK-ip-IaM">
                                 <rect key="frame" x="20" y="315" width="374" height="20.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="NDAstroneer" family="ND Astroneer" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CHA-5i-Ia3">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Height" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CHA-5i-Ia3">
                                 <rect key="frame" x="65" y="343" width="284" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B2c-6e-wvV">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Weight" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B2c-6e-wvV">
                                 <rect key="frame" x="65" y="385" width="284" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.18039215689999999" green="0.43921568630000002" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="rZV-20-LzB"/>
                     </view>
                     <navigationItem key="navigationItem" id="AVR-Tc-LQg"/>
+                    <connections>
+                        <outlet property="height" destination="CHA-5i-Ia3" id="NtG-GI-VTq"/>
+                        <outlet property="weight" destination="B2c-6e-wvV" id="Zj2-m9-FdU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZUO-Sa-aKn" sceneMemberID="firstResponder"/>
             </objects>
