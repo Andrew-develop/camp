@@ -19,6 +19,7 @@
 		874AE14F24C82590004D8A4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874AE14D24C82590004D8A4F /* LaunchScreen.storyboard */; };
 		874AE15A24C82590004D8A4F /* RU_AndrewF_GYMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874AE15924C82590004D8A4F /* RU_AndrewF_GYMTests.swift */; };
 		874AE16524C82590004D8A4F /* RU_AndrewF_GYMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874AE16424C82590004D8A4F /* RU_AndrewF_GYMUITests.swift */; };
+		87F3C30224C9C99500E86E5D /* Sign In.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F3C30124C9C99500E86E5D /* Sign In.swift */; };
 		87FA138224C9403D008B9532 /* Step2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FA138124C9403D008B9532 /* Step2.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		874AE16424C82590004D8A4F /* RU_AndrewF_GYMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RU_AndrewF_GYMUITests.swift; sourceTree = "<group>"; };
 		874AE16624C82590004D8A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87E7392C24C96EBB00A98F4F /* Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Font.ttf; path = ../../Downloads/Font.ttf; sourceTree = "<group>"; };
+		87F3C30124C9C99500E86E5D /* Sign In.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sign In.swift"; sourceTree = "<group>"; };
 		87FA138124C9403D008B9532 /* Step2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +121,7 @@
 				8728083B24C9510400DE3BD5 /* Step3Male.swift */,
 				8728083F24C951AA00DE3BD5 /* Step4.swift */,
 				8728084124C951B600DE3BD5 /* Step5.swift */,
+				87F3C30124C9C99500E86E5D /* Sign In.swift */,
 				874AE14824C8258E004D8A4F /* Main.storyboard */,
 				874AE14B24C82590004D8A4F /* Assets.xcassets */,
 				874AE14D24C82590004D8A4F /* LaunchScreen.storyboard */,
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87FA138224C9403D008B9532 /* Step2.swift in Sources */,
+				87F3C30224C9C99500E86E5D /* Sign In.swift in Sources */,
 				874AE14724C8258E004D8A4F /* Step1.swift in Sources */,
 				874AE14324C8258E004D8A4F /* AppDelegate.swift in Sources */,
 				8728083E24C9516000DE3BD5 /* Step3Female.swift in Sources */,

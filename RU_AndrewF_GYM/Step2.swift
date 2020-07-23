@@ -36,12 +36,12 @@ class Step2: UIViewController {
         if genderM.backgroundColor == UIColor.green {
             sender.backgroundColor = UIColor.green
             let viewController = storyboard?.instantiateViewController(withIdentifier: "Step3Male") as! UIViewController
-            self.present(viewController, animated: true)
+            self.present(viewController, animated: false)
         }
         else if genderF.backgroundColor == UIColor.green {
             sender.backgroundColor = UIColor.green
             let viewController = storyboard?.instantiateViewController(withIdentifier: "Step3Female") as! UIViewController
-            self.present(viewController, animated: true)
+            self.present(viewController, animated: false)
         }
     }
     

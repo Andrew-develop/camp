@@ -19,6 +19,8 @@ class Step5: UIViewController {
     }
 
     @IBAction func nextButton(_ sender: UIButton) {
+        let viewController = storyboard?.instantiateViewController(withIdentifier: "SignIn") as! UIViewController
+        self.present(viewController, animated: false)
     }
     
 }

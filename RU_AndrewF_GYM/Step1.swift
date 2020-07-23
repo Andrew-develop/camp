@@ -20,7 +20,7 @@ class Step1: UIViewController {
     @IBAction func target(_ sender: UIButton) {
         sender.backgroundColor = UIColor.green
         let viewController = storyboard?.instantiateViewController(withIdentifier: "Step2") as! UIViewController
-        self.present(viewController, animated: true)
+        self.present(viewController, animated: false)
     }
     
 

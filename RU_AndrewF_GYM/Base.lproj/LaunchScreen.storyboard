@@ -19,12 +19,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" red="0.38767582178115845" green="0.56205403804779053" blue="0.76472866535186768" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fitness-logo-png-1" translatesAutoresizingMaskIntoConstraints="NO" id="CsT-yl-XC6">
-                                <rect key="frame" x="137" y="100" width="140" height="140"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ellipse 16" translatesAutoresizingMaskIntoConstraints="NO" id="2mt-PO-erY">
                                 <rect key="frame" x="136" y="100" width="141" height="141"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fitness-logo-png-1" translatesAutoresizingMaskIntoConstraints="NO" id="CsT-yl-XC6">
+                                <rect key="frame" x="137" y="100" width="140" height="140"/>
                             </imageView>
                         </subviews>
                         <constraints>

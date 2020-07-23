@@ -19,7 +19,7 @@ class Step3Female: UIViewController {
     @IBAction func partOfBody(_ sender: UIButton) {
         sender.backgroundColor = UIColor.green
         let viewController = storyboard?.instantiateViewController(withIdentifier: "Step4") as! UIViewController
-        self.present(viewController, animated: true)
+        self.present(viewController, animated: false)
     }
     
 

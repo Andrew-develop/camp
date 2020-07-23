@@ -40,7 +40,7 @@ class Step4: UIViewController {
     @IBAction func nextButton(_ sender: UIButton) {
         sender.backgroundColor = UIColor.green
         let viewController = storyboard?.instantiateViewController(withIdentifier: "Step5") as! UIViewController
-        self.present(viewController, animated: true)
+        self.present(viewController, animated: false)
     }
     
 }
