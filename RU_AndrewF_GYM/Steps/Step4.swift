@@ -41,6 +41,7 @@ class Step4: UIViewController {
         sender.backgroundColor = UIColor.green
         let viewController = storyboard?.instantiateViewController(withIdentifier: "Step5") as! UIViewController
         self.present(viewController, animated: false)
+        self.dismiss(animated: false, completion: nil)
     }
     
 }

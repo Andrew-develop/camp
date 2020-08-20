@@ -13,6 +13,8 @@ class Step2: UIViewController {
     @IBOutlet weak var genderF: UIButton!
     @IBOutlet weak var genderM: UIButton!
     
+    let defoults = UserDefaults.standard
+    
     
     
     override func viewDidLoad() {
@@ -21,7 +23,7 @@ class Step2: UIViewController {
     }
     
     @IBAction func gender(_ sender: UIButton) {
-        if sender.restorationIdentifier == "Male"{
+        if sender.restorationIdentifier == "Male" {
             genderM.backgroundColor = UIColor.green
             genderF.backgroundColor = UIColor.white
         }
@@ -34,11 +36,13 @@ class Step2: UIViewController {
     
     @IBAction func nextButton(_ sender: UIButton) {
         if genderM.backgroundColor == UIColor.green {
+            defoults.set("Male", forKey: "Gender")
             sender.backgroundColor = UIColor.green
             let viewController = storyboard?.instantiateViewController(withIdentifier: "Step3Male") as! UIViewController
             self.present(viewController, animated: false)
         }
         else if genderF.backgroundColor == UIColor.green {
+            defoults.set("Female", forKey: "Gender")
             sender.backgroundColor = UIColor.green
             let viewController = storyboard?.instantiateViewController(withIdentifier: "Step3Female") as! UIViewController
             self.present(viewController, animated: false)
