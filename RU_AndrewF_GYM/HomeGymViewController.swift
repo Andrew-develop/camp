@@ -28,14 +28,14 @@ extension HomeGymViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-        cell.imageView?.image = UIImage(named: "\(data[indexPath.row])")
-        cell.textLabel?.text = data[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! TableViewCell
+        cell.imageCell.image = UIImage(named: "\(data[indexPath.row])")
+        cell.labelCell.text = "\(data[indexPath.row])"
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 146.0
+        return 146.5
     }
     
 }
