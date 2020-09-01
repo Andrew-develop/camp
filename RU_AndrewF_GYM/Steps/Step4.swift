@@ -21,27 +21,26 @@ class Step4: UIViewController {
 
     @IBAction func howMuch(_ sender: UIButton) {
         if sender.restorationIdentifier == "jun" {
-            jun.backgroundColor = UIColor.green
+            jun.backgroundColor = #colorLiteral(red: 0.8901960784, green: 0.8745098039, blue: 0.737254902, alpha: 1)
             mid.backgroundColor = UIColor.white
             sen.backgroundColor = UIColor.white
         }
         else if sender.restorationIdentifier == "mid" {
             jun.backgroundColor = UIColor.white
-            mid.backgroundColor = UIColor.green
+            mid.backgroundColor = #colorLiteral(red: 0.8901960784, green: 0.8745098039, blue: 0.737254902, alpha: 1)
             sen.backgroundColor = UIColor.white
         }
         else if sender.restorationIdentifier == "sen" {
             jun.backgroundColor = UIColor.white
             mid.backgroundColor = UIColor.white
-            sen.backgroundColor = UIColor.green
+            sen.backgroundColor = #colorLiteral(red: 0.8901960784, green: 0.8745098039, blue: 0.737254902, alpha: 1)
         }
     }
     
     @IBAction func nextButton(_ sender: UIButton) {
-        sender.backgroundColor = UIColor.green
+        sender.backgroundColor = #colorLiteral(red: 0.8901960784, green: 0.8745098039, blue: 0.737254902, alpha: 1)
         let viewController = storyboard?.instantiateViewController(withIdentifier: "Step5") as! UIViewController
         self.present(viewController, animated: false)
-        self.dismiss(animated: false, completion: nil)
     }
     
 }

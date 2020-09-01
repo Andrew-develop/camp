@@ -35,7 +35,13 @@ extension HomeGymViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 146.5
+        return 200.0
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let dest = storyboard?.instantiateViewController(identifier: "lessons") as! LessonsViewController
+        dest.typeLessons = data[indexPath.row]
+        self.present(dest, animated: true)
     }
     
 }

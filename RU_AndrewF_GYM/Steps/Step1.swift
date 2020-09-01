@@ -18,7 +18,7 @@ class Step1: UIViewController {
     
     
     @IBAction func target(_ sender: UIButton) {
-        sender.backgroundColor = UIColor.green
+        sender.backgroundColor = #colorLiteral(red: 0.8901960784, green: 0.8745098039, blue: 0.737254902, alpha: 1)
         let viewController = storyboard?.instantiateViewController(withIdentifier: "Step2") as! UIViewController
         self.present(viewController, animated: false)
     }

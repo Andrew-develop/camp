@@ -24,26 +24,26 @@ class Step2: UIViewController {
     
     @IBAction func gender(_ sender: UIButton) {
         if sender.restorationIdentifier == "Male" {
-            genderM.backgroundColor = UIColor.green
+            genderM.backgroundColor = #colorLiteral(red: 0.8901960784, green: 0.8745098039, blue: 0.737254902, alpha: 1)
             genderF.backgroundColor = UIColor.white
         }
         else {
             genderM.backgroundColor = UIColor.white
-            genderF.backgroundColor = UIColor.green
+            genderF.backgroundColor = #colorLiteral(red: 0.8901960784, green: 0.8745098039, blue: 0.737254902, alpha: 1)
         }
     }
     
     
     @IBAction func nextButton(_ sender: UIButton) {
-        if genderM.backgroundColor == UIColor.green {
+        if genderM.backgroundColor == #colorLiteral(red: 0.8901960784, green: 0.8745098039, blue: 0.737254902, alpha: 1) {
             defoults.set("Male", forKey: "Gender")
-            sender.backgroundColor = UIColor.green
+            sender.backgroundColor = #colorLiteral(red: 0.8901960784, green: 0.8745098039, blue: 0.737254902, alpha: 1)
             let viewController = storyboard?.instantiateViewController(withIdentifier: "Step3Male") as! UIViewController
             self.present(viewController, animated: false)
         }
-        else if genderF.backgroundColor == UIColor.green {
+        else if genderF.backgroundColor == #colorLiteral(red: 0.8901960784, green: 0.8745098039, blue: 0.737254902, alpha: 1) {
             defoults.set("Female", forKey: "Gender")
-            sender.backgroundColor = UIColor.green
+            sender.backgroundColor = #colorLiteral(red: 0.8901960784, green: 0.8745098039, blue: 0.737254902, alpha: 1)
             let viewController = storyboard?.instantiateViewController(withIdentifier: "Step3Female") as! UIViewController
             self.present(viewController, animated: false)
         }
